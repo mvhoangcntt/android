@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0ff"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thật đáng buồn !"
+        android:textSize="34sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#38bf03"/>
+    <Button
+        android:id="@+id/replayy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Replay"/>
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="exit"/>
+</LinearLayout>

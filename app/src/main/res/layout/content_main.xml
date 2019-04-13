@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:gravity="center"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:textColor="#f00"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Theo bạn, thời gian là gì?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv2"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:text="Với tôi, thời gian là thứ tài sản thượng đế ban tặng muôn loài đồng đều nhất, có giới hạn, không thay đổi được và không mua, bán được. Vì những đặc điểm này, thực sự chúng ta không bao giờ quản lý được thời gian, điều duy nhất chúng ta có thể làm được là sắp xếp và sử dụng thời gian như thế nào cho hiệu quả nhất. Người sử dụng thời gian hiệu quả, là người “giàu có” thời gian hơn."
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

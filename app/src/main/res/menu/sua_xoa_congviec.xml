@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Sửa"
+        android:id="@+id/suacv"
+        app:showAsAction="always"/>
+    <item android:title="Xóa"
+        android:id="@+id/xoacv"
+        app:showAsAction="always"/>
+</menu>
