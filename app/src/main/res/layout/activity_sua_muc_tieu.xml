@@ -7,43 +7,30 @@
     android:padding="10dp"
     android:layout_height="match_parent">
     <TextView
-        android:text="Thêm công việc mới"
+        android:text="Update muc tieu"
         android:textSize="30sp"
         android:gravity="center"
         android:textColor="#f76205"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <EditText
-        android:id="@+id/tencv"
-        android:hint="Name"
+        android:id="@+id/edtNoiDung"
+        android:hint="Nội dung"
         android:layout_marginTop="40sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <EditText
-        android:id="@+id/status"
-        android:hint="Status"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <EditText
-        android:id="@+id/date"
-        android:hint="07/03/2018"
-        android:layout_width="match_parent"
-        android:inputType="date"
-        android:textColor="#000"
         android:layout_height="wrap_content" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
-            android:id="@+id/addcv"
+            android:id="@+id/addupdatecv"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="ADD"/>
+            android:text="update"/>
         <Button
-            android:id="@+id/cancel"
+            android:id="@+id/cancelcv"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"

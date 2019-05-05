@@ -6,28 +6,25 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_congviec"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/congviec"
             android:title="Công việc cần làm" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Tablayout" />
+            android:id="@+id/nav_time"
+            android:icon="@drawable/dongho"
+            android:title="Thời gian biểu" />
+        <item
+            android:id="@+id/nav_muctieu"
+            android:icon="@drawable/muctieu"
+            android:title="Mục tiêu" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/game"
             android:title="Mini game" />
         <item
-            android:id="@+id/nav_thoiquansau"
-            android:icon="@drawable/game"
-            android:title="Thói quen xấu" />
-        <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/ic_menu_send"
             android:title="Logout" />
-        <!--<item-->
-            <!--android:id="@+id/nav_manage"-->
-            <!--android:icon="@drawable/ic_menu_manage"-->
-            <!--android:title="Tools" />-->
+
     </group>
 
     <!--<item android:title="Communicate">-->

@@ -12,7 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".XoayManHinhActivity"></activity>
+        <activity android:name=".AddMucTieuActivity"></activity>
+        <activity android:name=".SuaMucTieuActivity" />
+        <activity android:name=".MainMucTieuActivity" />
+        <activity android:name=".SuaThoiGianBieuActivity" />
+        <activity android:name=".AddThoiGianBieuActivity" />
+        <activity android:name=".XoayManHinhActivity" />
         <activity android:name=".HomeMiniGameActivity" />
         <activity android:name=".ViewPagerTabLayoutActivity" />
         <activity android:name=".SuaCongViecActivity" />
