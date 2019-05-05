@@ -30,10 +30,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MainCongViecActivity extends AppCompatActivity {
-//    String urlcv = "https://hai80184.000webhostapp.com/cuoiki/congviec/listonline.php";
-//    String urldelete = "https://hai80184.000webhostapp.com/cuoiki/congviec/deleteonline.php";
-    String urlcv = "http://192.168.56.1/musicandroid/cuoiki/congviec/listcv.php";
-    String urldelete = "http://192.168.56.1/musicandroid/cuoiki/congviec/delete.php";
+
+    String urlcv = "http://hai80184.000webhostapp.com/cuoiki/congviec/listonline.php";
+    String urldelete = "http://hai80184.000webhostapp.com/cuoiki/congviec/deleteonline.php";
+//    String urlcv = "http://192.168.56.1/musicandroid/cuoiki/congviec/listcv.php";
+//    String urldelete = "http://192.168.56.1/musicandroid/cuoiki/congviec/delete.php";
     ArrayList<ModelCongViec> dataCongViec;
     AdapterCongViec adapter;
     RecyclerView recyclerView;
@@ -48,7 +49,6 @@ public class MainCongViecActivity extends AppCompatActivity {
         dataCongViec = new ArrayList<>();
         adapter = new AdapterCongViec(dataCongViec,R.layout.item_congviec,MainCongViecActivity.this);
         recyclerView.setAdapter(adapter);
-
         GetData(urlcv);
 
     }
@@ -116,7 +116,7 @@ public class MainCongViecActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
                         if (response.trim().equals("success")){// success trong php
-                            Toast.makeText(getApplicationContext(), "Xóa thành công ! ", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(), "Xóa thành công ! "+idcv , Toast.LENGTH_SHORT).show();
                             GetData(urlcv);
                         }else{
                             Toast.makeText(getApplicationContext(), "Lỗi xóa !", Toast.LENGTH_SHORT).show();

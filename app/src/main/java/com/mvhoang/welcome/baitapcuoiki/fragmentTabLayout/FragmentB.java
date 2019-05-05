@@ -37,7 +37,8 @@ public class FragmentB extends Fragment {
     RecyclerView recyclerView;
     AdapterFragment2 adapterFragment;
     List<Model_Fragment_Pager> listCV;
-    String urltg = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu2/listtg.php";
+//    String urltg = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu2/listtg.php";
+    String urltg = "http://hai80184.000webhostapp.com/cuoiki/thoigianbieu2/listonline.php";
     public  FragmentB(){
 
     }

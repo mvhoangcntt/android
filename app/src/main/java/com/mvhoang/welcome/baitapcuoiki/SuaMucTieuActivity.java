@@ -22,7 +22,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SuaMucTieuActivity extends AppCompatActivity {
-    String url = "http://192.168.56.1/musicandroid/cuoiki/muctieu/update.php";
+//    String url = "http://192.168.56.1/musicandroid/cuoiki/muctieu/update.php";
+    String url = "http://hai80184.000webhostapp.com/cuoiki/muctieu/updateonline.php";
     EditText edtNoidung;
     Button btnuodatecv, btncancv;
     int id = 0;

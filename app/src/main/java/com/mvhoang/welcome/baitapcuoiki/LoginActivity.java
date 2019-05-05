@@ -24,8 +24,8 @@ import org.json.JSONObject;
 public class LoginActivity extends AppCompatActivity {
     EditText username, password;
     Button btnlogin , btncreate;
-//    String urluser = "https://hai80184.000webhostapp.com/cuoiki/user/listonlineuser.php";
-    String urluser = "http://192.168.56.1/musicandroid/cuoiki/user/listuser.php";
+    String urluser = "https://hai80184.000webhostapp.com/cuoiki/user/listonlineuser.php";
+//    String urluser = "http://192.168.56.1/musicandroid/cuoiki/user/listuser.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -21,8 +21,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CreateAccountActivity extends AppCompatActivity {
-//    String urladd = "https://hai80184.000webhostapp.com/cuoiki/user/insertonline.php";
-    String urladd = "http://192.168.56.1/musicandroid/cuoiki/user/insert.php";
+    String urladd = "https://hai80184.000webhostapp.com/cuoiki/user/insertonline.php";
+//    String urladd = "http://192.168.56.1/musicandroid/cuoiki/user/insert.php";
     EditText name, email, pass;
     Button btncreatec, btncancel;
     @Override

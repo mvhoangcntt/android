@@ -23,7 +23,8 @@ import java.util.Map;
 public class AddMucTieuActivity extends AppCompatActivity {
     EditText edtNoidung;
     Button btnadd, btncan;
-    String urladd = "http://192.168.56.1/musicandroid/cuoiki/muctieu/insert.php";
+//    String urladd = "http://192.168.56.1/musicandroid/cuoiki/muctieu/insert.php";
+    String urladd = "http://hai80184.000webhostapp.com/cuoiki/muctieu/insertonline.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

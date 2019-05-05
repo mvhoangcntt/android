@@ -37,7 +37,8 @@ import java.util.Map;
 
 public class Adapter_MucTieu extends RecyclerView.Adapter<Adapter_MucTieu.viewHolder> {
 
-    String urldelete = "http://192.168.56.1/musicandroid/cuoiki/muctieu/delete.php";
+//    String urldelete = "http://192.168.56.1/musicandroid/cuoiki/muctieu/delete.php";
+    String urldelete = "http://192.168.56.1/musicandroid/cuoiki/muctieu/deleteonline.php";
     Context context;
     int layout;
     ArrayList<Model_MucTieu> dataMucTieu;

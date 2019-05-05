@@ -51,7 +51,8 @@ public class FragmentA extends Fragment {
     RecyclerView recyclerView;
     AdapterFragment adapterFragment;
     List<Model_Fragment_Pager> listCV;
-    String urltg = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu/listtg.php";
+//    String urltg = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu/listtg.php";
+    String urltg = "http://hai80184.000webhostapp.com/cuoiki/thoigianbieu/listonline.php";
 
     public FragmentA(){
 

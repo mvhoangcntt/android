@@ -27,7 +27,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class MainMucTieuActivity extends AppCompatActivity {
-    String url = "http://192.168.56.1/musicandroid/cuoiki/muctieu/list.php";
+//    String url = "http://192.168.56.1/musicandroid/cuoiki/muctieu/list.php";
+    String url = "http://hai80184.000webhostapp.com/cuoiki/muctieu/listonline.php";
 
     ArrayList<Model_MucTieu> dataMucTieu;
     Adapter_MucTieu adapter;

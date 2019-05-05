@@ -32,7 +32,9 @@ import java.util.List;
 import java.util.Map;
 
 public class AdapterFragment2 extends RecyclerView.Adapter<AdapterFragment.MyViewHolder> {
-    String urldelete = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu2/delete.php";
+//    String urldelete = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu2/delete.php";
+    String urldelete = "http://hai80184.000webhostapp.com/cuoiki/thoigianbieu2/deleteonline.php";
+
     Context mContext;
     int layout;
     List<Model_Fragment_Pager> mData;

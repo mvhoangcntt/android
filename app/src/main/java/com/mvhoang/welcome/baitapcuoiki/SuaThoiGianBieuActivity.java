@@ -36,9 +36,11 @@ public class SuaThoiGianBieuActivity extends AppCompatActivity {
         Model_Fragment_Pager model_fragment_pager = (Model_Fragment_Pager) intent.getSerializableExtra("dulieu");
         String kieu = intent.getStringExtra("kieu");
         if (kieu.equals("1")){
-            url = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu/update.php";
+//            url = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu/update.php";
+            url = "http://hai80184.000webhostapp.com/cuoiki/thoigianbieu/updateonline.php";
         }else{
-            url = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu2/update.php";
+//            url = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu2/update.php";
+            url = "http://hai80184.000webhostapp.com/cuoiki/thoigianbieu2/updateonline.php";
         }
         edtstatust.setText(model_fragment_pager.getStatus());
         edtdate.setText(model_fragment_pager.getDate()+"");
