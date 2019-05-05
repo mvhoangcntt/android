@@ -34,9 +34,12 @@ public class AddThoiGianBieuActivity extends AppCompatActivity {
         String kieu = intent.getStringExtra("kieu");
         Toast.makeText(this, ""+kieu, Toast.LENGTH_SHORT).show();
         if (kieu.equals("1")){
-            urladdcv = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu/insert.php";
+//            urladdcv = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu/insert.php";
+            urladdcv = "http://hai80184.000webhostapp.com/cuoiki/thoigianbieu/insertonline.php";
+
         }else{
-            urladdcv = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu2/insert.php";
+//            urladdcv = "http://192.168.56.1/musicandroid/cuoiki/thoigianbieu2/insert.php";
+            urladdcv = "http://hai80184.000webhostapp.com/cuoiki/thoigianbieu2/insertonline.php";
         }
         anhxa();
         btnadd.setOnClickListener(new View.OnClickListener() {
