@@ -25,8 +25,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SuaCongViecActivity extends AppCompatActivity {
-//    String url = "https://hai80184.000webhostapp.com/cuoiki/congviec/updateonline.php";
-    String url = "http://192.168.56.1/musicandroid/cuoiki/congviec/update.php";
+    String url = "https://hai80184.000webhostapp.com/cuoiki/congviec/updateonline.php";
+//    String url = "http://192.168.56.1/musicandroid/cuoiki/congviec/update.php";
     EditText edtname, edtstatust, edtdate;
     Button btnuodatecv, btncancv;
     int id = 0;

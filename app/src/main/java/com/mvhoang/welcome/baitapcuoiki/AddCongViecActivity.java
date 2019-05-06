@@ -27,8 +27,8 @@ import java.util.Map;
 public class AddCongViecActivity extends AppCompatActivity {
     EditText edtname, edtstatust, edtdate;
     Button btnadd, btncan;
-//    String urladdcv = "https://hai80184.000webhostapp.com/cuoiki/congviec/insertonline.php";
-    String urladdcv = "http://192.168.56.1/musicandroid/cuoiki/congviec/insert.php";
+    String urladdcv = "https://hai80184.000webhostapp.com/cuoiki/congviec/insertonline.php";
+//    String urladdcv = "http://192.168.56.1/musicandroid/cuoiki/congviec/insert.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
